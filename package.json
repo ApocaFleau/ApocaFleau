@@ -1,7 +1,7 @@
 {
     "name": "apocafleau",
     "productname": "ApocaFleauLauncher",
-    "version": "1.0.5",
+    "version": "1.0.0",
     "description": "Launcher Mincraft pour le serveurs ApocaFleau",
     "main": "src/app.js",
     "author": {
@@ -14,7 +14,7 @@
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/Apoca-mc/ApocaFleau-Launcher/refs/heads/master/ApocaFleau.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/ApocaFleau/ApocaFleau/refs/heads/master/ApocaFleau.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Apoca-mc/ApocaFleau-Launcher.git"
+        "url": "git+https://github.com/ApocaFleau/ApocaFleau.git"
     }
 }
